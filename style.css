@@ -991,3 +991,13 @@ p {
 
   
 }
+.ola{
+  background-color: #eb4cb1;
+  justify-content: center;
+  border: 6px solid rgb(92, 18, 157);
+  width: 500px;
+  height: 500px;
+  text-align: center;
+  -webkit-text-fill-color: rgb(92, 18, 157);
+  }
+  
