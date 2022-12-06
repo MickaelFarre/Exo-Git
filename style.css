@@ -1067,3 +1067,51 @@ p {
 
 /* ################## */
 
+/* DEBUT CODE JULIEN */
+.card-julien {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 350px;
+  height: 500px;
+  background-color: #55ff90;
+  border-radius: 10px;
+  margin-top: 15px;
+  margin-left: 40px;
+}
+  
+.card-julien h1 {
+  
+  margin: 0;
+  
+}
+
+  /* FIN CODE JULIEN */
+
+  /*DEBUT CODE MARION*/
+.Marion {
+  width: 300px;
+  border-radius: 18px;
+  background: white;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
+  font-family: roboto;
+  text-align: center;
+  grid-area: text;
+  margin: 25px;
+  height: 450px;
+}
+  
+.card-image-marion {
+  background-image: url("./assets/fine-dog.jpg");
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-position: center;
+  height: 100px;
+  background-repeat: no-repeat;
+  background-size: 75%;
+}
+  
+/* FIN CODE MARION*/
+  
+
