@@ -1016,3 +1016,64 @@ p {
 }
 
 /*fin julien*/
+
+
+.ola{
+  background-color: #eb4cb1;
+  justify-content: center;
+  border: 6px solid rgb(92, 18, 157);
+  width: 500px;
+  height: 500px;
+  text-align: center;
+  -webkit-text-fill-color: rgb(92, 18, 157);
+  }
+  
+
+/* DEBUT CODE Taher */
+
+.taher{
+  
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 500px;
+    background-color: #d3d3d3;
+    margin:10px 0px 0px 10px;
+    
+}
+.taher img{
+  text-align: center;
+  width: 150px;
+  height: 150px;
+  
+  
+}
+
+
+.taher h1{
+  
+  margin: 0;
+  transition: color 0.5s;
+  
+}
+.taher #desc{
+  color: rgb(0, 0, 0);
+    text-transform: capitalize;
+    
+    transition: color 0.5s;
+}
+.taher:hover  h1,
+.taher:hover #desc
+
+{
+  color: rgb(221, 25, 25);
+}
+.taher:hover {
+  background-color: black;
+
+}
+
+/* ################## */
+
