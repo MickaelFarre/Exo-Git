@@ -846,6 +846,22 @@ p {
   transition: all 0.5s ease;
 }
 
+.Manelle{
+  background-color: #925029a4;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+  width: 350px;
+  height: 400px;
+  margin-top: 15px;
+  border: 7px solid rgba(150, 26, 73, 0.685);
+  text-shadow: 1px 2px 12px rgba(240, 229, 237, 0.603);
+  -webkit-text-fill-color: #eeebeb;
+}
+
+/* ################## */
+
 @keyframes moveS {
   0% {
     margin-top: 5px;
@@ -995,6 +1011,17 @@ p {
 
 }
 
+.ola{
+  background-color: #eb4cb1;
+  justify-content: center;
+  border: 6px solid rgb(92, 18, 157);
+  width: 500px;
+  height: 500px;
+  text-align: center;
+  -webkit-text-fill-color: rgb(92, 18, 157);
+  }
+  
+
 /* DEBUT CODE Taher */
 
 .taher {
@@ -1044,12 +1071,43 @@ p {
 }
 
 /* ################## */
-.Yann {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+
+/*######Alexandre.l########*/
+.cardlexandre{
+  background-image: url(/assets/fightclub-everythings-a-copy-of-a-copy\ \(copie\).gif);
+  background-repeat: no-repeat;
+  background-position: center;
+  border: palevioletred solid 4px;
   width: 350px;
+  min-height: 250px;
+  padding: 10px;
+  margin: 40px;
+  box-shadow: 1px 1px 3px #888;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  transform:matrix3d(3)
+}
+.alname{
+  text-align: end;
+  color: #c80581;
+  text-shadow:black 1px 1px 2px;
+  margin-top: -10px;
+}
+.paulson{
+  text-align: center;
+  font-size: 80%;
+  margin-top: 260px;
+}
+.cardlexandre:hover {
+  transition: 0.8s ease-in-out;
+  transform: scale(1.05);
+  background-image:url(/assets/fight-club-fight-club-penguin\ \(copie\).gif);
+  font-size: 0%;
+}
+
+/*#######Alexandre.l#######*/
+
+.Yann {
   height: 750px;
   margin-top: 15px;
 
@@ -1063,3 +1121,51 @@ p {
   transform: scale(1.1);
   transition: all 0.5s ease;
 }
+
+/* DEBUT CODE JULIEN */
+.card-julien {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 350px;
+  height: 500px;
+  background-color: #55ff90;
+  border-radius: 10px;
+  margin-top: 15px;
+  margin-left: 40px;
+}
+  
+.card-julien h1 {
+  
+  margin: 0;
+  
+}
+
+  /* FIN CODE JULIEN */
+
+  /*DEBUT CODE MARION*/
+.Marion {
+  width: 300px;
+  border-radius: 18px;
+  background: white;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
+  font-family: roboto;
+  text-align: center;
+  grid-area: text;
+  margin: 25px;
+  height: 450px;
+}
+  
+.card-image-marion {
+  background-image: url("./assets/fine-dog.jpg");
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-position: center;
+  height: 100px;
+  background-repeat: no-repeat;
+  background-size: 75%;
+}
+  
+/* FIN CODE MARION*/
+
