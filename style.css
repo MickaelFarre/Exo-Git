@@ -1149,3 +1149,26 @@ p {
   
 /* FIN CODE MARION*/
 
+
+/* DÉBUT CODE YANN */
+.Yann {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 350px;
+  height: 750px;
+  margin-top: 15px;
+
+}
+
+.Yann h1 {
+  margin: 0;
+}
+
+.Yann:hover {
+  transform: scale(1.1);
+  transition: all 0.5s ease;
+}
+
+/* FIN CODE YANN */
