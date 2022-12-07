@@ -1067,6 +1067,41 @@ p {
 
 /* ################## */
 
+/*######Alexandre.l########*/
+.cardlexandre{
+  background-image: url(/assets/fightclub-everythings-a-copy-of-a-copy\ \(copie\).gif);
+  background-repeat: no-repeat;
+  background-position: center;
+  border: palevioletred solid 4px;
+  width: 350px;
+  min-height: 250px;
+  padding: 10px;
+  margin: 40px;
+  box-shadow: 1px 1px 3px #888;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  transform:matrix3d(3)
+}
+.alname{
+  text-align: end;
+  color: #c80581;
+  text-shadow:black 1px 1px 2px;
+  margin-top: -10px;
+}
+.paulson{
+  text-align: center;
+  font-size: 80%;
+  margin-top: 260px;
+}
+.cardlexandre:hover {
+  transition: 0.8s ease-in-out;
+  transform: scale(1.05);
+  background-image:url(/assets/fight-club-fight-club-penguin\ \(copie\).gif);
+  font-size: 0%;
+}
+
+/*#######Alexandre.l#######*/
+
 /* DEBUT CODE JULIEN */
 .card-julien {
   display: flex;
@@ -1113,5 +1148,4 @@ p {
 }
   
 /* FIN CODE MARION*/
-  
 
